@@ -1,10 +1,10 @@
-/* Reset some default styles */
+/* Reset */
 body, h1, h2, p, ul {
   margin: 0;
   padding: 0;
 }
 
-/* General page styling */
+/* General styling */
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -12,20 +12,27 @@ body {
   color: #333;
 }
 
-/* Header styling */
+/* Header */
 header {
-  background: #333;
+  text-align: center;
+  background: #222;
   color: #fff;
-  padding: 1rem;
+  padding-bottom: 1rem;
+}
+
+header img {
+  width: 100%;
+  height: auto;
 }
 
 header h1 {
-  margin-bottom: 0.5rem;
+  margin: 1rem 0;
 }
 
 nav ul {
   list-style: none;
   display: flex;
+  justify-content: center;
   gap: 1rem;
 }
 
@@ -47,10 +54,22 @@ section {
   margin-bottom: 2rem;
 }
 
-/* Footer styling */
+section h2 {
+  margin-bottom: 0.5rem;
+  color: #444;
+}
+
+/* Footer */
 footer {
-  background: #333;
-  color: #fff;
   text-align: center;
+  background: #222;
+  color: #fff;
   padding: 1rem;
 }
+
+footer img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+
